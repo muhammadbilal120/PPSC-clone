@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <title>PPSC</title>
+</head>
+<style>
+    li {
+        list-style-type: none;
+        padding: 0px 25px;
+        margin: 0px -10px;
+        font-weight: bold;
+        color: white;
+    }
+
+    li:hover {
+        background: linear-gradient(to top, green 50%, white);
+    }
+
+    h5 {
+        background-color: rgb(56, 139, 56);
+        margin-top: 10px;
+        padding: 5px;
+        border: 2px lightgray solid;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .flex-container {
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .button-dis {
+        background: linear-gradient(to bottom, whitesmoke 20%, lightgray);
+        margin: 0px 15px;
+        text-align: center;
+        color: rgb(50, 50, 104);
+        border: 1px solid black;
+        font-size: medium;
+        font-weight: 500;
+        box-sizing: border-box;
+        width: 90%;
+    }
+    .dropdown-item{
+        background: linear-gradient(to top, green 70%, white);
+        color: whitesmoke;
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10 offset-1">
+                <img style="width: 100%;" src="images/ppsc.png" alt="ppsc">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-10 offset-1">
+            <nav class="navbar navbar-expand-md mx-2"
+                style="background: linear-gradient(to top, rgb(56, 139, 56) 60%, white );">
+                <div class="container">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">JOBS </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
+                            data-bs-toggle="dropdown">SCHEDULE</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">EXAMS</a>
+                            <a class="dropdown-item" href="#">INTERVEIWS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
+                            data-bs-toggle="dropdown">RESULTS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">WRITTEN RESULTS</a>
+                            <a class="dropdown-item" href="#">DETAIL MARKS OF CANDITATE</a>
+                            <a class="dropdown-item" href="#">FINAL RECOMMANDATIONS</a>
+                            <a class="dropdown-item" href="#">FINAL RECOMMANDATIONS MERIT LISTS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
+                            data-bs-toggle="dropdown">INFORMATION
+                            DESK</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">SYLLABUS</a>
+                            <a class="dropdown-item" href="#">JOB DESCRIPTION</a>
+                            <a class="dropdown-item" href="#">JOB ARCHEVI</a>
+                            <a class="dropdown-item" href="#">HIGHLIGHTS </a>
+                            <a class="dropdown-item" href="#">RIGHT THE INFORMATION </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId"
+                            data-bs-toggle="dropdown">PUBLICATIONS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">PPSC REGULATIONS</a>
+                            <a class="dropdown-item" href="#">LIST OF DISQUALIFEID CANDITATE</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">FEEDBACK<span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown">ABOUT</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">OUR SERVICES</a>
+                            <a class="dropdown-item" href="#">OUR FUNCTIONS</a>
+                        </div>
+                    </li>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card p-2 mb-3 mt-3 bg-light">
+                            <h5>Jobs</h5>
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i> Advertisement No
+                                08/2023</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i> Advertisement No
+                                07/2023</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <h5>FACILITATIONS DESK</h5>
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i> Contact Details</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>How to apply online?
+                            </a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>How to deposit fee
+                                online?</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>How to pay rechecking
+                                fee?</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Important
+                                Instructions</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Upcoming Jobs</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Frequently Asked
+                                Questions</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Notified Quotas
+                                Information</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Press Release</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Downloads / PMS
+                                Syllabus</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <a href="#" style="color: rgb(33, 33, 138);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Other Useful
+                                Links</a>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h5>OUR MISSION</h5>
+                        <div class="flex-container">
+                            <img src="images/ppsclogo.jpg" class="m-4" alt="ppsc">
+                            <p>Select and recommend suitable candidates through a merit-based, transparent and
+                                expeditious
+                                process to promote excellence, professionalism and competence in the Punjab Public
+                                Service
+                                and render advice to Government.</p>
+                        </div>
+                        <h5>RUSELTS</h5>
+                        <div>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Written Results of
+                                Various Posts announced on 11-07-2023</a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Final Results of
+                                Various Posts announced on 17-07-2023</a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>New Results Complete
+                                Merit Lists announced on 17-07-2023</a>
+                            <br>
+                        </div>
+                        <h5>NEWS & HIGHLIGHTS</h5>
+                        <div>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Partial Modification
+                                in Advertisement No. 34/2020</a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Guidance For
+                                Eligibility/Scrutiny Criteria For the post of SYSTEM NETWORK </a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Schedule of
+                                Psychological Assessment for the Posts of Law Officer (BS-17)</a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Detail of Clubbed
+                                Cases</a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Corrigendum of
+                                Consolidated Advertisement No.38/2018 (Case No.42C2018)</a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right fa-beat"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i>Please note that
+                                Official SMS are being sent by PPSCINFO / PPSC mask only.</a>
+                            <br>
+                            <a href="#" style="color: rgb(32, 32, 192);font-size: 14px;"><i
+                                    class="fa-solid fa-arrow-right mb-5"
+                                    style="font-size: small; padding-right: 10px;color: gray;"></i> User Manual for
+                                Online Deposit of Fee</a>
+                            <br>
+                            <a href="#"
+                                style="color: rgb(32, 32, 192);font-size: 14px;background-color: lightgray;text-align: center;padding: 0px 215px;"><em>Veiw
+                                    All/Archive</em></a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 mt-3 bg-light">
+                            <h5>ONLINE SYSTEM</h5>
+                            <p class="my-0 text-center ps-3 pb-2" style="font-size: small;">Do not wait for last date. Apply now
+                            </p>
+                            <button class="text-center text-light bg-dark"
+                                style="margin-left: 12px;border-radius: 10px;font-weight: bolder;">Apply Online<i
+                                    class="fa-solid fa-check ps-3"
+                                    style="color: rgb(56, 139, 56);font-size: x-large;"></i>
+                                <p style="font-size: 10px;">Click here to fill out online application</p>
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Edit Application
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Print Application
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Print Interveiw Call Letter
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Print Admission Letter
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Detailed Marks
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Pay Recheaking Fees
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Register Complaint
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                            <button class="button-dis">
+                                Planner
+                            </button>
+                            <hr style="border-bottom: 1px dotted;margin-top: 10px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10 offset-1">
+                <div class="card">
+                    <div class="card-footer text-light" style="background-color: rgb(56, 139, 56);">
+                        &copy; 2023, Directorate of Information Technology - PPSC
+                        <div style="display: inline; float: right;">
+                            <a class="text-light border-end pe-4 ps-4" href="#">Twitter</a>
+                            <a class="text-light border-end pe-4 ps-4" href="#">Facebook</a>
+                            <a class="text-light border-end pe-4 ps-4" href="#">Instagram</a>
+                            <a class="text-light p-4" href="#">Staff Only</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="lib/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
